@@ -1,7 +1,7 @@
 /*
   This is the node class for a BST
 */
-class Nod {
+class Node {
   constructor(value){
     this.value = value;
     this.left = null;
@@ -16,7 +16,8 @@ class BinarySearchTree {
         var newNode = new Node(value);
         if(this.root === null){
             this.root = newNode;
-            return this;
+            //return this;
+            return root;
         }
         var current = this.root;
         while(true){
