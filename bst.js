@@ -1,9 +1,6 @@
 /*
   This is the node class for a BST
-  It has three values
-  value - the value contained within the node
-  left - pointer to the left child node
-  right - pointer to the right child node
+  one parameter for the value
 */
 class Node {
   constructor(value){
@@ -11,4 +8,9 @@ class Node {
     this.left = null;
     this.right = null;
   }
+}
+class BinarySearchTree {
+    constructor(){
+        this.root = null;
+    }
 }
